@@ -8,6 +8,8 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
+import javax.swing.*;
+
 public class Controller {
 
    @FXML
@@ -80,5 +82,7 @@ public class Controller {
          System.out.println("Error");
       }
    }
+   public void generate_feedback(ActionEvent e){
 
+   }
 }
