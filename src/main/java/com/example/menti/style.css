@@ -15,7 +15,7 @@
     -fx-background-radius: 20px;
     -fx-border-style: solid;
 }
-.checklist_panel{
+.check_list{
     -fx-background-color: #8FC5EB;
     -fx-border-width: 2px 2px 2px 2px;
     -fx-border-radius: 20px;
