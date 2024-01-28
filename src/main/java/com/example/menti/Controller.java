@@ -2,20 +2,6 @@ package com.example.menti;
 
 import javafx.fxml.FXML;
 import javafx.event.ActionEvent;
-<<<<<<< HEAD
-import javafx.fxml.Initializable;
-import javafx.scene.Node;
-import javafx.scene.Parent;
-import javafx.scene.chart.*;
-import javafx.scene.control.CheckBox;
-import javafx.scene.layout.Pane;
-import javafx.stage.Stage;
-
-import java.net.URL;
-import java.util.ResourceBundle;
-
-public class Controller implements Initializable {
-=======
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.control.CheckBox;
@@ -43,26 +29,17 @@ import java.util.ResourceBundle;
 public class Controller implements Initializable{
    // List to store user input from checklists
    private List<String> checklistItems = new ArrayList<>();
->>>>>>> 712c4ff (Final)
 
    @FXML
    public Pane activitiesPane;
    public Pane sleepPane;
    public Pane meditationPane;
    public Pane check_list;
-<<<<<<< HEAD
-
-   @FXML
-   public LineChart LineChart;
-   public BarChart BarChart;
-
-=======
    @FXML
    public JFXTextArea suggestions;
    @FXML
    public LineChart LineChart;
    public BarChart BarChart;
->>>>>>> 712c4ff (Final)
    @FXML
    public CategoryAxis x;
 
@@ -84,12 +61,9 @@ public class Controller implements Initializable{
       BarChart.getData().addAll(series);
    }
 
-<<<<<<< HEAD
-=======
    // String to store the response received from gpt-3.5-turbo
    public String response;
 
->>>>>>> 712c4ff (Final)
    @FXML
    public void activityButton(ActionEvent e) {
       activitiesPane.setVisible(true);
@@ -110,33 +84,6 @@ public class Controller implements Initializable{
       sleepPane.setVisible(false);
       meditationPane.setVisible(true);
    }
-<<<<<<< HEAD
-   public void addList(ActionEvent e) {
-      CheckBox checkBox = new CheckBox("New Checkbox");
-      checkBox.setMaxSize(150, 20);
-      checkBox.setLayoutX(25);
-
-      checkBox.selectedProperty().addListener((obs, wasSelected, isSelected) -> {
-         if (!isSelected) {
-            Parent parent = checkBox.getParent();
-            if (parent instanceof Pane) {
-               int removedIndex = ((Pane) parent).getChildren().indexOf(checkBox);
-               ((Pane) parent).getChildren().remove(checkBox);
-               for (int i = removedIndex; i < ((Pane) parent).getChildren().size(); i++) {
-                  Node node = ((Pane) parent).getChildren().get(i);
-                  if (node instanceof CheckBox) {
-                     double newYPosition = calculateYPosition(i);
-                     ((CheckBox) node).setLayoutY(newYPosition);
-                  }
-               }
-            }
-         }
-      });
-
-      double newYPosition = calculateYPosition(check_list.getChildren().size());
-      checkBox.setLayoutY(newYPosition);
-      check_list.getChildren().add(checkBox);
-=======
    @FXML
    private void addList(ActionEvent e) {
       // Create dialog box for user to enter info
@@ -175,7 +122,6 @@ public class Controller implements Initializable{
          // Add the info on check box to list
          checklistItems.add(text);
       });
->>>>>>> 712c4ff (Final)
    }
 
    private double calculateYPosition(int index) {
@@ -183,14 +129,11 @@ public class Controller implements Initializable{
       return Math.max(index * spacing, 0);
    }
 
-<<<<<<< HEAD
-=======
    // converts the list into a string array
    public String[] getChecklistItemsArray() {
       return checklistItems.toArray(new String[0]);
    }
 
->>>>>>> 712c4ff (Final)
    @FXML
    public void startButton(ActionEvent event) {
       Stage stage = new Stage();
@@ -203,8 +146,6 @@ public class Controller implements Initializable{
          System.out.println("Error");
       }
    }
-<<<<<<< HEAD
-=======
 
    @FXML
    public void generate_feedback(ActionEvent e){
@@ -279,5 +220,4 @@ public class Controller implements Initializable{
       jsonString.append("]");
       return jsonString.toString();
    }
->>>>>>> 712c4ff (Final)
 }

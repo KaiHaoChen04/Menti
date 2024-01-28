@@ -4,10 +4,6 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-<<<<<<< HEAD
-
-=======
->>>>>>> 712c4ff (Final)
 import java.io.IOException;
 
 public class App extends Application {

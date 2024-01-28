@@ -11,10 +11,7 @@ module com.example.menti {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
     requires java.desktop;
-<<<<<<< HEAD
-=======
     requires com.jfoenix;
->>>>>>> 712c4ff (Final)
     requires javafx.swing;
 
     opens com.example.menti to javafx.fxml;

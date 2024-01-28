@@ -23,15 +23,9 @@ public class ScrollBack extends JPanel implements ActionListener {
     int move = 20;
     BufferedImage buffer; // Off-screen image for double buffering
 
-<<<<<<< HEAD
-    static String music = "/Users/kennychen/Desktop/IdeaProjects/Menti/src/medSource/mindfulness-relaxation-amp-meditation-music-22174.wav";
-
-    String open = "/Users/kennychen/Desktop/IdeaProjects/Menti/src/medSource/Open Your Eyes.wav";
-=======
     static String music = "medSource/mindfulness-relaxation-amp-meditation-music-22174.wav";
 
     String open = "medSource/src_medSource_Open Your Eyes.wav";
->>>>>>> 712c4ff (Final)
     long startTime; // Start time for countdown
     long countdownDuration; // Countdown duration in milliseconds
     JLabel countdownLabel; // Label to display countdown
@@ -39,11 +33,7 @@ public class ScrollBack extends JPanel implements ActionListener {
     JButton startButton; // Button to start countdown
 
     public ScrollBack() {
-<<<<<<< HEAD
-        ImageIcon obj = new ImageIcon("/Users/kennychen/Desktop/IdeaProjects/Menti/src/medSource/waves_1.png");
-=======
         ImageIcon obj = new ImageIcon("medSource/waves_1.png");
->>>>>>> 712c4ff (Final)
         pic = obj.getImage();
         picWidth = pic.getWidth(null);
         picHeight = pic.getHeight(null);

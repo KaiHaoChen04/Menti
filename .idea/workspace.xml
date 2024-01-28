@@ -4,44 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="c1cecfc4-aca4-4c26-b605-ed5db6874720" name="Changes" comment="initial commit">
+    <list default="true" id="c1cecfc4-aca4-4c26-b605-ed5db6874720" name="Changes" comment="fix path for music files and image files">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/menti/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/menti/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/menti/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/menti/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/menti/ScrollBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/menti/ScrollBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/menti/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/menti/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/menti/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/menti/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/menti/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/menti/style.css" afterDir="false" />
     </list>
-=======
-    <list default="true" id="c1cecfc4-aca4-4c26-b605-ed5db6874720" name="Changes" comment="fix path for music files and image files" />
->>>>>>> 712c4ff (Final)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-<<<<<<< HEAD
-=======
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$/../MentiBackEnd">
-      <ProjectState />
-    </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$/../MentiBackEnd">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand />
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
->>>>>>> 712c4ff (Final)
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -52,6 +32,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,57 +48,26 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
+    &quot;associatedIndex&quot;: 6
+    }</component>
   <component name="ProjectId" id="2bXzIwKqUd7BWs40fcbrGaxM39c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kennychen/Desktop/IdeaProjects/Menti/src/main/java/com/example/menti&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
-=======
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.App.executor": "Run",
     "Application.HelloApplication.executor": "Run",
     "Application.ScrollBack.executor": "Run",
-    "Gradle.Build MentiBackEnd.executor": "Run",
     "Maven.Menti [install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.OpenaiSpringApplication.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kennychen/Downloads/Menti-App",
+    "last_opened_file_path": "C:/GitHubFiles/Moonlighter project/Moonlighter By Andy Pak & Mustafa Merchant",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -131,21 +81,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
->>>>>>> 712c4ff (Final)
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/example/menti" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-<<<<<<< HEAD
-      <recent name="$PROJECT_DIR$/src/medSource" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/example/menti" />
-      <recent name="$PROJECT_DIR$/src/main/resources/com/example/menti" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
-=======
       <recent name="C:\Users\Keewe\Downloads\MentiApp\Menti-main" />
       <recent name="C:\Users\Keewe\Downloads\MentiApp\Menti-main\src\medSource" />
       <recent name="C:\Users\Keewe\Downloads\MentiApp\Menti-main\src\main\resources\com\example\menti\images" />
@@ -153,20 +93,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/example/menti" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.menti.App" />
-      <module name="Menti" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.menti.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Menti-main" />
       <method v="2">
@@ -180,24 +107,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenaiSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="openaiSpring.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.openaiSpring.openaiSpring.OpenaiSpringApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.App" />
-      </list>
-    </recent_temporary>
   </component>
->>>>>>> 712c4ff (Final)
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
@@ -215,15 +129,9 @@
       <workItem from="1706393132660" duration="41961000" />
       <workItem from="1706454315179" duration="63000" />
       <workItem from="1706454380959" duration="50000" />
-<<<<<<< HEAD
-      <workItem from="1706454452318" duration="10906000" />
-=======
       <workItem from="1706454452318" duration="940000" />
       <workItem from="1706456190439" duration="1662000" />
       <workItem from="1706457922952" duration="8636000" />
-      <workItem from="1706470608216" duration="170000" />
-      <workItem from="1706471022634" duration="357000" />
->>>>>>> 712c4ff (Final)
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -233,9 +141,6 @@
       <option name="project" value="LOCAL" />
       <updated>1706376469721</updated>
     </task>
-<<<<<<< HEAD
-    <option name="localTasksCounter" value="2" />
-=======
     <task id="LOCAL-00002" summary="implement backend system">
       <option name="closed" value="true" />
       <created>1706461279501</created>
@@ -277,7 +182,6 @@
       <updated>1706464639193</updated>
     </task>
     <option name="localTasksCounter" value="7" />
->>>>>>> 712c4ff (Final)
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,13 +200,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-<<<<<<< HEAD
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
-=======
     <MESSAGE value="implement backend system" />
     <MESSAGE value="update latest version of backend and frontend code" />
     <MESSAGE value="fix path for music files and image files" />
     <option name="LAST_COMMIT_MESSAGE" value="fix path for music files and image files" />
->>>>>>> 712c4ff (Final)
   </component>
 </project>
