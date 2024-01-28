@@ -8,8 +8,6 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-import javax.swing.*;
-
 public class Controller {
 
    @FXML
@@ -74,10 +72,10 @@ public class Controller {
    public void startButton(ActionEvent event) {
       Stage stage = new Stage();
 
-      ScrollBack scrollBack = new ScrollBack();
+      MeditationGUI meditationGUI = new MeditationGUI();
 
       try {
-         scrollBack.start(stage);
+         meditationGUI.start(stage);
       } catch (Exception e) {
          System.out.println("Error");
       }

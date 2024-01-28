@@ -19,11 +19,9 @@ public class MeditationGUI extends Application {
         SwingNode swingNode = new SwingNode();
         swingNode.setContent(swingGUI);
 
-        // Create a JavaFX scene
         BorderPane root = new BorderPane(swingNode);
         Scene scene = new Scene(root, 1400, 700);
 
-        // Set up the stage
         primaryStage.setTitle("Meditation Space");
         primaryStage.setScene(scene);
         primaryStage.show();

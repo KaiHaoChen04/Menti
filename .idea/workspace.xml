@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1cecfc4-aca4-4c26-b605-ed5db6874720" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/menti/MeditationGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/menti/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/menti/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/menti/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/menti/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/menti/MeditationGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/menti/MeditationGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/menti/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/menti/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/menti/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/menti/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/menti/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/menti/style.css" afterDir="false" />
     </list>
@@ -107,7 +107,7 @@
       <workItem from="1706393132660" duration="41961000" />
       <workItem from="1706454315179" duration="63000" />
       <workItem from="1706454380959" duration="50000" />
-      <workItem from="1706454452318" duration="3775000" />
+      <workItem from="1706454452318" duration="6377000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
