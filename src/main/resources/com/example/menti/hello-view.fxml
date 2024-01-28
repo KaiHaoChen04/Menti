@@ -26,7 +26,7 @@
                      <graphic>
                         <ImageView fitHeight="22.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@images/activity-assessment-512.png" />
+                              <Image url="@images/activities.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -49,7 +49,7 @@
                      <graphic>
                         <ImageView fitHeight="26.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@images/3834165.png" />
+                              <Image url="@images/exercise.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -64,7 +64,7 @@
                      <graphic>
                         <ImageView fitHeight="16.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@images/am-a-19-year-old-multimedia-artist-student-from-manila--21.png" />
+                              <Image url="@images/user-image-with-black-background.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -86,13 +86,13 @@
                </BarChart>
                <ImageView fitHeight="31.0" fitWidth="28.0" layoutX="14.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                     <Image url="@images/8263123.png" />
+                     <Image url="@images/ai.png" />
                   </image>
                </ImageView>
             </children></Pane>
          <Pane fx:id="meditationPane" prefHeight="200.0" prefWidth="200.0" styleClass="meditationPane" stylesheets="@style.css" visible="false">
             <children>
-               <JFXButton fx:id="startButton" layoutX="193.0" layoutY="175.0" styleClass="startButton" text="Start">
+               <JFXButton fx:id="startButton" layoutX="193.0" layoutY="175.0" onAction="#startButton" styleClass="startButton" text="Start">
                   <font>
                      <Font name="Apple SD Gothic Neo ExtraBold" size="20.0" />
                   </font>
@@ -100,13 +100,13 @@
             </children></Pane>
          <Pane fx:id="activitiesPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="464.0" styleClass="activitiesPane" stylesheets="@style.css">
             <children>
-               <Pane fx:id="check_list" layoutX="7.0" layoutY="113.0" prefHeight="285.0" prefWidth="160.0" styleClass="check_list">
+               <Pane fx:id="check_list" layoutX="7.0" layoutY="113.0" prefHeight="285.0" prefWidth="197.0" styleClass="check_list">
                   <children>
-                     <JFXButton buttonType="RAISED" layoutX="35.0" layoutY="244.0" onAction="#addList" prefHeight="17.0" prefWidth="91.0" text="Goal" wrapText="true">
+                     <JFXButton buttonType="RAISED" layoutX="53.0" layoutY="244.0" onAction="#addList" prefHeight="17.0" prefWidth="91.0" text="Goal" wrapText="true">
                         <graphic>
                            <ImageView fitHeight="25.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
                               <image>
-                                 <Image url="@images/Paomedia-Small-N-Flat-Sign-add.1024.png" />
+                                 <Image url="@images/add-contact.png" />
                               </image>
                            </ImageView>
                         </graphic>
@@ -124,14 +124,14 @@
                      <Insets />
                   </opaqueInsets>
                </Label>
-               <Label layoutX="282.0" layoutY="91.0" text="Weekly Trends">
+               <Label layoutX="295.0" layoutY="14.0" text="Weekly Trends">
                   <font>
                      <Font name="System Bold Italic" size="17.0" />
                   </font>
                </Label>
-               <Pane fx:id="weekly_trend" layoutX="219.0" layoutY="125.0" prefHeight="150.0" prefWidth="233.0" styleClass="weekly_trend" stylesheets="@style.css">
+               <Pane fx:id="weekly_trend" layoutX="232.0" layoutY="42.0" prefHeight="150.0" prefWidth="233.0" styleClass="weekly_trend" stylesheets="@style.css">
                   <children>
-                     <LineChart layoutX="3.0" layoutY="-5.0" prefHeight="160.0" prefWidth="227.0">
+                     <LineChart layoutX="4.0" layoutY="-6.0" prefHeight="160.0" prefWidth="227.0">
                         <xAxis>
                            <CategoryAxis side="BOTTOM" />
                         </xAxis>

@@ -1,12 +1,12 @@
 package com.example.menti;
 
-import com.almasb.fxgl.entity.action.Action;
 import javafx.fxml.FXML;
 import javafx.event.ActionEvent;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.control.CheckBox;
 import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
 
 public class Controller {
 
@@ -35,9 +35,6 @@ public class Controller {
       activitiesPane.setVisible(false);
       sleepPane.setVisible(false);
       meditationPane.setVisible(true);
-   }
-   public void startButton(ActionEvent e){
-
    }
    public void addList(ActionEvent e) {
       CheckBox checkBox = new CheckBox("New Checkbox");
@@ -70,4 +67,18 @@ public class Controller {
       double spacing = 25.0;
       return Math.max(index * spacing, 0);
    }
+
+   @FXML
+   public void startButton(ActionEvent event) {
+      Stage stage = new Stage();
+
+      ScrollBack scrollBack = new ScrollBack();
+
+      try {
+         scrollBack.start(stage);
+      } catch (Exception e) {
+         System.out.println("Error");
+      }
+   }
+
 }
