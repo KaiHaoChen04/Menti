@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1cecfc4-aca4-4c26-b605-ed5db6874720" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/medSource/Open Your Eyes.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medSource/mindfulness-relaxation-amp-meditation-music-22174.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/menti/ScrollBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/menti/ScrollBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/menti/waves_1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/menti/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/menti/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +76,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/example/menti" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/medSource" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/menti" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/menti" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/resources/images" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -104,7 +104,7 @@
       <workItem from="1706393132660" duration="41961000" />
       <workItem from="1706454315179" duration="63000" />
       <workItem from="1706454380959" duration="50000" />
-      <workItem from="1706454452318" duration="940000" />
+      <workItem from="1706454452318" duration="2384000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />

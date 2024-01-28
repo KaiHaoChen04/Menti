@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
-<?import com.jfoenix.controls.JFXTextArea?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.chart.BarChart?>
 <?import javafx.scene.chart.CategoryAxis?>
 <?import javafx.scene.chart.LineChart?>
 <?import javafx.scene.chart.NumberAxis?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -142,13 +142,13 @@
                      </LineChart>
                   </children>
                </Pane>
+               <TextArea fx:id="suggestions" layoutX="222.0" layoutY="224.0" prefHeight="176.0" prefWidth="235.0" styleClass="suggestion" />
                <Label layoutX="15.0" layoutY="85.0" text="Today,">
                   <font>
                      <Font name="System Bold Italic" size="13.0" />
                   </font>
                </Label>
-               <JFXTextArea fx:id="suggestions" layoutX="222.0" layoutY="231.0" prefHeight="166.0" prefWidth="243.0" styleClass="suggestion" />
-               <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="232.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+               <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="232.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true">
                   <image>
                      <Image url="@images/ai.png" />
                   </image>
