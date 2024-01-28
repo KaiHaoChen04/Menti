@@ -107,18 +107,6 @@
                      <Font name="System Bold Italic" size="17.0" />
                   </font>
                </Label>
-               <Pane fx:id="weekly_trend" layoutX="222.0" layoutY="42.0" prefHeight="150.0" prefWidth="243.0" styleClass="weekly_trend" stylesheets="@style.css">
-                  <children>
-                     <LineChart layoutX="10.0" layoutY="-6.0" prefHeight="160.0" prefWidth="221.0">
-                        <xAxis>
-                           <CategoryAxis side="BOTTOM" />
-                        </xAxis>
-                        <yAxis>
-                           <NumberAxis side="LEFT" />
-                        </yAxis>
-                     </LineChart>
-                  </children>
-               </Pane>
                <Label layoutX="15.0" layoutY="85.0" text="Today,">
                   <font>
                      <Font name="System Bold Italic" size="13.0" />
@@ -139,16 +127,28 @@
                      <Font name="Apple Symbols" size="13.0" />
                   </font>
                </JFXButton>
+               <AnchorPane fx:id="weekly_trend" layoutX="221.0" layoutY="42.0" prefHeight="147.0" prefWidth="243.0" styleClass="weekly_trend">
+                  <children>
+                     <LineChart fx:id="LineChart" layoutX="-7.0" layoutY="4.0" prefHeight="150.0" prefWidth="236.0">
+                       <xAxis>
+                         <CategoryAxis fx:id="x" />
+                       </xAxis>
+                       <yAxis>
+                         <NumberAxis fx:id="y" />
+                       </yAxis>
+                     </LineChart>
+                  </children>
+               </AnchorPane>
             </children>
          </Pane>
          <Pane fx:id="sleepPane" prefHeight="200.0" prefWidth="200.0" styleClass="sleepPane" stylesheets="@style.css" visible="false">
             <children>
-               <BarChart layoutX="68.0" layoutY="-6.0" prefHeight="257.0" prefWidth="311.0">
+               <BarChart fx:id="BarChart" layoutX="68.0" layoutY="-6.0" prefHeight="257.0" prefWidth="311.0">
                  <xAxis>
-                   <CategoryAxis side="BOTTOM" />
+                   <CategoryAxis side="BOTTOM" fx:id="x" />
                  </xAxis>
                  <yAxis>
-                   <NumberAxis side="LEFT" />
+                   <NumberAxis fx:id="y" side="LEFT" />
                  </yAxis>
                </BarChart>
                <ImageView fitHeight="31.0" fitWidth="28.0" layoutX="14.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">

@@ -2,19 +2,49 @@ package com.example.menti;
 
 import javafx.fxml.FXML;
 import javafx.event.ActionEvent;
+import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
+import javafx.scene.chart.*;
 import javafx.scene.control.CheckBox;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-public class Controller {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class Controller implements Initializable {
 
    @FXML
    public Pane activitiesPane;
    public Pane sleepPane;
    public Pane meditationPane;
    public Pane check_list;
+
+   @FXML
+   public LineChart LineChart;
+   public BarChart BarChart;
+
+   @FXML
+   public CategoryAxis x;
+
+   @FXML
+   public NumberAxis y;
+
+   @FXML
+   public void initialize(URL url, ResourceBundle rb) {
+      XYChart.Series series = new XYChart.Series();
+      series.setName("Data");
+
+      series.getData().add(new XYChart.Data("M", 24));
+      series.getData().add(new XYChart.Data("T", 50));
+      series.getData().add(new XYChart.Data("W", 10));
+      series.getData().add(new XYChart.Data("T", 20));
+      series.getData().add(new XYChart.Data("F", 1));
+
+      LineChart.getData().addAll(series);
+      BarChart.getData().addAll(series);
+   }
 
    @FXML
    public void activityButton(ActionEvent e) {
@@ -79,8 +109,5 @@ public class Controller {
       } catch (Exception e) {
          System.out.println("Error");
       }
-   }
-   public void generate_feedback(ActionEvent e){
-
    }
 }
