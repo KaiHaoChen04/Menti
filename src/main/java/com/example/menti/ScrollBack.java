@@ -33,7 +33,7 @@ public class ScrollBack extends JPanel implements ActionListener {
     JButton startButton; // Button to start countdown
 
     public ScrollBack() {
-        ImageIcon obj = new ImageIcon("waves_1.PNG");
+        ImageIcon obj = new ImageIcon("/Users/kennychen/Desktop/IdeaProjects/Menti/src/medSource/waves_1.png");
         pic = obj.getImage();
         picWidth = pic.getWidth(null);
         picHeight = pic.getHeight(null);

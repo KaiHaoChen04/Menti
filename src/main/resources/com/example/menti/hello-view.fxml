@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.chart.BarChart?>
 <?import javafx.scene.chart.CategoryAxis?>
@@ -124,14 +125,14 @@
                      <Insets />
                   </opaqueInsets>
                </Label>
-               <Label layoutX="295.0" layoutY="14.0" text="Weekly Trends">
+               <Label layoutX="283.0" layoutY="10.0" text="Weekly Trends">
                   <font>
                      <Font name="System Bold Italic" size="17.0" />
                   </font>
                </Label>
-               <Pane fx:id="weekly_trend" layoutX="232.0" layoutY="42.0" prefHeight="150.0" prefWidth="233.0" styleClass="weekly_trend" stylesheets="@style.css">
+               <Pane fx:id="weekly_trend" layoutX="222.0" layoutY="42.0" prefHeight="150.0" prefWidth="243.0" styleClass="weekly_trend" stylesheets="@style.css">
                   <children>
-                     <LineChart layoutX="4.0" layoutY="-6.0" prefHeight="160.0" prefWidth="227.0">
+                     <LineChart layoutX="10.0" layoutY="-6.0" prefHeight="160.0" prefWidth="221.0">
                         <xAxis>
                            <CategoryAxis side="BOTTOM" />
                         </xAxis>
@@ -144,6 +145,17 @@
                <Label layoutX="15.0" layoutY="85.0" text="Today,">
                   <font>
                      <Font name="System Bold Italic" size="13.0" />
+                  </font>
+               </Label>
+               <JFXTextArea fx:id="suggestions" layoutX="222.0" layoutY="231.0" prefHeight="166.0" prefWidth="243.0" styleClass="suggestion" />
+               <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="232.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@images/ai.png" />
+                  </image>
+               </ImageView>
+               <Label layoutX="290.0" layoutY="200.0" prefHeight="22.0" prefWidth="107.0" text="Feedbacks">
+                  <font>
+                     <Font name="Arial Bold Italic" size="18.0" />
                   </font>
                </Label>
             </children>
