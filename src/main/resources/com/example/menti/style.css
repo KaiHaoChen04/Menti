@@ -44,8 +44,13 @@
 .suggestion{
     -fx-background-color: #FFFFFF;
     -fx-border-width: 2px 2px 2px 2px;
+<<<<<<< HEAD
     -fx-border-radius: 0px;
     -fx-background-radius: 0px;
+=======
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+>>>>>>> 712c4ff (Final)
     -fx-border-style: solid;
 }
 .generate_feedback{
