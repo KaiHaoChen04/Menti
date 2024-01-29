@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1cecfc4-aca4-4c26-b605-ed5db6874720" name="Changes" comment="bug fix">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentiBackEnd" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../MentiBackEnd">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -74,7 +81,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kennychen/Downloads/Menti-App",
+    "last_opened_file_path": "/Users/kennychen/Desktop/Menti-App",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -84,7 +91,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -110,6 +117,13 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="Menti-main" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenaiSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="openaiSpring.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.openaiSpring.openaiSpring.OpenaiSpringApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,6 +154,8 @@
       <workItem from="1706456190439" duration="1662000" />
       <workItem from="1706457922952" duration="8636000" />
       <workItem from="1706474644761" duration="2242000" />
+      <workItem from="1706538513093" duration="587000" />
+      <workItem from="1706539383698" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -215,6 +231,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../MentiBackEnd" />
+    </ignored-roots>
     <MESSAGE value="initial commit" />
     <MESSAGE value="implement backend system" />
     <MESSAGE value="update latest version of backend and frontend code" />
